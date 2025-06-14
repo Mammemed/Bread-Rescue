@@ -37,8 +37,7 @@ BreadRescue connects **bakeries** with **local volunteers** who collect leftover
 | Element          | Description                                                                                                                   | Validation / Safeguards                                      |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
 | **Base Reward**  | 5 BT for the bakery + 5 BT for the volunteer. Each BT = 1 kg of saved bread.                                                  | Transfer executed via Hedera Scheduled Transaction.          |
-| **Speed Bonus**  | +1 BT for each 15 minutes saved between CLAIMED and DELIVERED (max +3 BT).                                                    | Computed and validated in backend logic.                     |
-| **Traceability** | Every transaction is timestamped using **Hedera Consensus Service (HCS)** (< 5s latency).                                      | Image-based AI verification prevents fraud.                  |
+| **Traceability** | Every transaction is timestamped using **Hedera Consensus Service (HCS)** .                                      | Image-based AI verification prevents fraud.                  |
 
 ---
 
