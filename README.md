@@ -67,7 +67,6 @@ BreadRescue connects **bakeries** with **local volunteers** who collect leftover
 - **Backend**: Node.js + Express  
 - **Blockchain**: Hedera Token Service (HTS) + Consensus Service (HCS)  
 - **AI**: Computer Vision for image comparison  
-- **Database**: MongoDB (for storing user activity and logs)
 
 ---
 
