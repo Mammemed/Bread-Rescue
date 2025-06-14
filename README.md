@@ -1,12 +1,12 @@
 # 🥖 BreadRescue - Fight Bread Waste and Reward the Community
 
-## 🌱 Introduction
+## 🌍 Project Context
 
 **BreadRescue** is a decentralized platform designed to combat **bread waste** and promote **community engagement**.  
-Every year in France, more than **150,000 tons of bread** are thrown away — the equivalent of **9 baguettes per person**.  
-Meanwhile, many students, families, and volunteers are ready to **rescue** this perfectly edible bread.
+In France, over **150,000 tons of bread** are wasted every year — about **9 baguettes per person**.  
+Meanwhile, many people (students, retirees, modest families) are ready to **rescue** this edible bread, but lack the means and recognition.
 
-BreadRescue connects **bakeries** with **local volunteers** who collect leftover bread and receive rewards in the form of **BreadTokens (BT)**.
+Inspired by sustainable values and blockchain transparency, BreadRescue combines **AI, Hedera blockchain, and community action** to reward responsible behavior and reduce waste.
 
 ---
 
@@ -14,68 +14,47 @@ BreadRescue connects **bakeries** with **local volunteers** who collect leftover
 
 - ♻️ Reduce food waste, starting with bakeries.  
 - 🤝 Encourage community action and social solidarity.  
-- 🔗 Provide a **transparent and automated reward system** using the **Hedera Blockchain**.
+- 🔗 Provide a transparent, automated reward system using the **Hedera Hashgraph**.
 
----
-
-## 📊 Key Statistics
-
-- **150,000 tons of bread** wasted annually in France.  
-- Equivalent to **10% of national production**.  
-- BreadRescue transforms these losses into measurable, real-time impact.
-
-> Source: *Too Good To Go – Boulangerie Study*
-
----
-
-## 🪙 BreadTokens (BT) – The Reward System
-
-| Element          | Description                                                                                                                   | Validation / Safeguards                                      |
-| ---------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
-| **Base Reward**  | 5 BT for the bakery + 5 BT for the volunteer. Each BT = 1 kg of saved bread.                                                  | Transfer executed via Hedera Scheduled Transaction.          |
-| **Traceability** | Every transaction is timestamped using **Hedera Consensus Service (HCS)** .                                      | Image-based AI verification prevents fraud.                  |
-
----
-
-## ⚙️ How It Works
-
-1. 🧁 **Bakery posts a bread offer** with a photo.  
-2. 🧠 **AI model** estimates quantity and hashes the image for verification.  
-3. 🙋‍♂️ **Volunteer claims the offer** and collects the bread.  
-4. 📸 **Volunteer uploads a photo** at pickup.  
-5. 🧠 **AI compares photos** to confirm pickup and validate reward.  
-6. 🪙 **Tokens distributed** automatically via Hedera smart logic.
-
-<p align="center">
-  <img src="./assets/Bread-Rescue.png" alt="BreadRescue Diagram" width="600"/>
-</p>
-
-
-## 💡 Why BreadRescue?
-
-- ✅ **Unforgeable Traceability** — timestamped events on Hedera.  
-- 🤖 **Trustless Automation** — AI handles validation & rewards.  
-- 🌍 **Eco-Social Impact** — promotes zero-waste and inclusion.  
-- 🌐 **Open & Transparent** — all token actions are publicly verifiable.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React Typescript  
+- **Frontend**: React + TypeScript  
 - **Backend**: Node.js + Express  
-- **Blockchain**: Hedera Token Service (HTS) + Consensus Service (HCS)  
+- **Blockchain**: Hedera Token Service (HTS) & Consensus Service (HCS)  
 - **AI**: Computer Vision for image comparison  
 
 ---
 
-## 🧪 Proof of Concept
+🚀 Getting Started
+Follow these steps to run BreadRescue locally on your machine.
 
-We have implemented:
+1. Clone the Repository
+   
+git clone https://github.com/your-org/BreadRescue.git
+cd BreadRescue
 
-- AI-based photo matching system  
-- Real-time reward system using Hedera HTS  
-- Volunteer/bakery registration flow  
-- Transaction traceability with HCS logs
+2. Setup Environment Variables
+Create a .env file at the root of your backend and add your Hedera Testnet credentials:
+
+env
+Copier
+Modifier
+HEDERA_OPERATOR_ID=0.0.xxxxx
+HEDERA_OPERATOR_KEY=302e0201...
+🔑 You can get these credentials from the Hedera Testnet Portal.
+
+3. Install Backend Dependencies & Run Server
+
+npm install
+npm run dev
 
 
+## 📺 Demo & Resources
+
+- 🔄 **Video Walkthrough** – *coming soon*  
+- 🔗 [Learn more about Hedera Hashgraph](https://hedera.com)  
+- 🔍 [Too Good To Go - Food Waste Report](https://toogoodtogo.com)  
+- 🧠 [Explore AI for Social Good](https://ai.google/social-good/)
