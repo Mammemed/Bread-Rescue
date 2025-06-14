@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="./assets/Bread-Rescue.png" alt="BreadRescue Diagram" width="600"/>
-</p>
-
 # 🥖 BreadRescue - Fight Bread Waste and Reward the Community
 
 ## 🌱 Introduction
@@ -51,6 +47,10 @@ BreadRescue connects **bakeries** with **local volunteers** who collect leftover
 6. 🪙 **Tokens distributed** automatically via Hedera smart logic.
 
 ---
+<p align="center">
+  <img src="./assets/Bread-Rescue.png" alt="BreadRescue Diagram" width="600"/>
+</p>
+
 
 ## 💡 Why BreadRescue?
 
