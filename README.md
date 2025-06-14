@@ -79,6 +79,4 @@ We have implemented:
 - Volunteer/bakery registration flow  
 - Transaction traceability with HCS logs
 
-> More details and diagrams are available in the `/docs` folder.
 
----
